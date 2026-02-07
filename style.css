@@ -14,6 +14,7 @@
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    cursor: pointer;
 }
 
 .nav-logo {
@@ -124,4 +125,48 @@ span {
     font-size: 1rem;
     font-weight: 700;
     padding: 8px;
+}
+
+/* Panel */
+.panel {
+    background-color: #222f3d;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.panel-ops p {
+    display: inline;
+    font-size: 0.9rem;
+    margin-left: 8px;
+}
+
+.panel-ops {
+    width: 95%;
+}
+
+.panel-all i {
+    font-size: 19px;
+}
+
+.panel-all {
+    font-size: 1rem;
+    font-weight: 550;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.box {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    padding: 10px 8px;
+    cursor: pointer;
+}
+
+.box:hover {
+    border: 1px solid white;
+    border-radius: 2px;
 }
