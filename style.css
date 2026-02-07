@@ -170,3 +170,12 @@ span {
     border: 1px solid white;
     border-radius: 2px;
 }
+
+/* Hero Section */
+.hero {
+    background-image: url(image/hero_image.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+/* Container Section */
