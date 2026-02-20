@@ -261,3 +261,27 @@ span {
 .card p:hover {
     color: #3e5c5c;
 }
+
+/* Slide Section */
+.slide {
+    background-color: #cadbd8;
+    height: 350px;
+    align-content: center;
+}
+
+.slide-box {
+    background-color: white;
+    height: 280px;
+    margin: 0px 20px;
+    padding: 15px;
+}
+
+.slide-img {
+    display: flex;
+    gap: 4px;
+}
+
+.slide-img img {
+    height: 220px;
+    padding: 4px;
+}
